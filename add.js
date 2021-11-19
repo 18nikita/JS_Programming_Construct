@@ -1,3 +1,32 @@
+// 1. random function
+let a=Math.floor(Math.random() * 10);
+console.log(a);
+
+//2. Dice Number
+let value = (Math.floor(Math.random() * 10) % 7); 
+console.log("Random value for Dice is : " +value);
+
+//3. add two dice
+
+let value1 = (Math.floor(Math.random() * 10) % 7); 
+console.log("Random value for Dice is : " +value1);
+
+let value2 = (Math.floor(Math.random() * 10) % 7); 
+console.log("Random value for Dice is : " +value2);
+
+console.log("Addition of dice no. is  "+value1+value2);
+
+//5 random 2 digit values 
+let sum = 0;
+for(let a = 1; a <= 5; a ++){
+
+     let value3 = Math.floor(Math.random() * 100); 
+     console.log("random value is :" +value3);
+     sum += value3;
+}
+console.log("The sum of five random values is : " +sum);
+
+
 let oneFoot = 12 ; 
 let oneInch = 0.084; 
 let result = 42 * oneInch;
